@@ -1,0 +1,51 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f1f1f1 !important;
+}
+
+p {
+  color: rgb(102, 102, 102);
+}
+
+p b {
+  color: black;
+}
+
+p strong {
+  color: black;
+}
+
+.col-md-4 > a > img {
+  transition: 0.3s;
+}
+
+.col-md-4 > a > img:hover {
+  transform: scale(1.03);
+}
+
+.image-card {
+  background-color: white;
+}
+
+.card-right {
+  padding: 20px;
+}
+
+.card-right p {
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 90% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 90% !important;
+  }
+}
