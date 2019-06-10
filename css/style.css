@@ -28,6 +28,8 @@ p strong {
 
 .image-card {
   background-color: white;
+  min-height: 600px;
+  margin-bottom: 40px;
 }
 
 .card-right {
